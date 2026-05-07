@@ -1,0 +1,6 @@
+Timestamp,Image_Path,Diagnosis,Confidence,Model
+2026-05-07 14:14:28,C-NMC_Leukemia\training_data\hem\UID_H40_1_5_hem.bmp,ALL,0.5666,VGG16
+2026-05-07 14:39:47,C-NMC_Leukemia\training_data\all\UID_32_13_6_all.bmp,ALL,0.9393,VGG16
+2026-05-07 15:12:02,C-NMC_Leukemia\training_data\all\UID_74_3_1_all.bmp,ALL,0.9732,VGG16
+2026-05-07 15:49:06,C-NMC_Leukemia\training_data\all\UID_51_34_3_all.bmp,ALL,0.9668,VGG16
+2026-05-07 16:18:39,C-NMC_Leukemia\training_data\hem\UID_H2_41_2_hem.bmp,ALL,0.7812,VGG16
