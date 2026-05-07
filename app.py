@@ -587,7 +587,7 @@ print("✓ Feature extraction: VGG16")
 print("✓ Classifiers trained: SVM, Random Forest")
 print("✓ Explainability: Grad-CAM implemented")
 print("✓ Logging system: Active")
-print(f"✓ Results logged to: c:\\Users\\Lenovo\\Desktop\\major\\diagnostic_log.csv")
+print(f"✓ Results logged to: logs/diagnostic_log.csv")
 print("="*60)
 
 
