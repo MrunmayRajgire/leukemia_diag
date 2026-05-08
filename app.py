@@ -550,6 +550,8 @@ def evaluate_matrix(model):
 
     table = '\n'.join([header, separator, train_row, valid_row, test_row])
     print(table)
+    
+    return train_score[1], valid_score[1], test_score[1]  # Return accuracies
 
 
 show_history_plot(history_VGG16.history)
@@ -557,7 +559,7 @@ show_history_plot(history_VGG16.history)
 print("\n" + "="*60)
 print("VGG16 END-TO-END MODEL EVALUATION")
 print("="*60)
-evaluate_matrix(VGG16_model)
+vgg16_train_acc, vgg16_val_acc, vgg16_test_acc = evaluate_matrix(VGG16_model)
 
 show_conf_matrix(VGG16_model)
 
